@@ -1,0 +1,179 @@
+@font-face {
+  src: url("../fonts/notosans.otf");
+  font-family: "notosans";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "notosans";
+}
+
+body {
+  width: 100%;
+  background-color: beige;
+}
+
+.Logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-left: 30px;
+  text-decoration-line: none;
+}
+
+.Nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #3d9c57;
+  align-items: center;
+}
+
+.btnDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.Nav .Button {
+  height: 50px;
+  width: 100px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  margin-right: 30px;
+  color: white;
+}
+
+.Img_container {
+  width: 100%;
+  top: 70px;
+  left: 0px;
+}
+
+.Img_container img {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.Center_container {
+  width: 50%;
+  height: 70%;
+  top: 70%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: white;
+  opacity: 95%;
+  transform: translate(-50%, -70%);
+  border: 3px solid grey;
+}
+
+.Center_content {
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  height: 90%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Content_scroll {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.Title {
+  font-size: 50px;
+  margin-bottom: 150px;
+}
+
+.Inputs > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Textbox {
+  width: 500px;
+  height: 50px;
+  margin-bottom: 35px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+input::placeholder {
+  font-size: 18px;
+}
+
+.Radios {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-bottom: 35px;
+}
+
+.Radios > p {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.Radios p:last-of-type {
+  margin-left: 70px;
+}
+
+.Submit {
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.Menus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.Menu {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.Menu {
+  margin: 0 30px;
+}
+
+.ItemTitle,
+.Item {
+  height: 75px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.5px solid #dadada;
+  align-items: center;
+  font-size: 17px;
+}
+
+.ItemTitle {
+  font-weight: bold;
+}
+
+.ItemTitle > *,
+.Item > * {
+  flex: 1;
+  text-align: center;
+}
